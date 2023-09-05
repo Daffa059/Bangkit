@@ -1,12 +1,26 @@
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
 
 *{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
     color: white;
+    font-family: 'Inter', sans-serif;
 }
 
+.font-weight-Welldone{
+    font-weight: 900;
+}
+.font-weight-MediumRare{
+    font-weight: 700;
+}
+
+.font-weight-Medium{
+    font-weight: 500;
+}
+
+.font-weight-Rare{
+    font-weight: 300;
+}
 .header-1{
     text-align: center;
     padding: 60px;
@@ -15,17 +29,20 @@
 }
 /* Style for body */
 .container{
-    font-family: sans-serif, Arial;
     background-color: #000;
     margin: 20px;
     display: flex;
+    font-family: 'Inter', sans-serif;
 }
 
 .content-1{
     text-align: justify;
     text-justify: inter-word;
     flex-direction: column;
-    margin-right: 50px;
+    margin-right: 75px;
+    margin-left: 75px;
+    font-size: 16px;
+    font-family: 'Inter', sans-serif;
 }
 
 .article-content{
@@ -107,7 +124,6 @@ main{
     justify-content: space-between;
     align-items: flex-start;
     background-color: #fff;
-    border: 1px solid #5C8374;
     padding: 20px;
     margin-top: 20px;
     margin: 0;
@@ -135,25 +151,161 @@ footer{
     background-color: #333;
     color: white;
     text-align: center;
-    padding: 10px;
-    margin-top: 20px;
+    padding: 50px;
+    margin-top: auto;
 }
 
 /*Syle for card*/
 .card {
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    box-shadow: 0 4px 8px 0;
     transition: 0.3s;
     border-radius: 5px;
+    background-color: transparent;
+    margin-right: 300px;
+    margin-left: 300px;
 }
 
 .card:hover{
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    box-shadow: 0 8px 16px 0;
 }
 
 .container{
     padding: 2px 16px;
 }
 
+.transparent-background{
+    background-color: transparent;
+}
+
 img{
     border-radius: 10px 10px 10px 10px;
+    align-items: center;
 }
+
+.Center-Image{
+   align-self: center;
+}
+
+
+
+/* ###example code for rebuild the card####
+
+NOTE : WITHOUT ANY JS, SO U NEED USE JS FOR NAVBAR, JUST FIND NAVBAR DROPDOWN CODE
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  background-color: #ecf9ff;
+}
+
+body {
+  color: #272727;
+  font-family: 'Quicksand', serif;
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: 0;
+  padding: 1rem;
+}
+
+.main{
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+h1 {
+    font-size: 24px;
+    font-weight: 400;
+    text-align: center;
+}
+
+img {
+  height: auto;
+  max-width: 100%;
+  vertical-align: middle;
+}
+
+.btn {
+  color: #ffffff;
+  padding: 0.8rem;
+  font-size: 14px;
+  text-transform: uppercase;
+  border-radius: 4px;
+  font-weight: 400;
+  display: block;
+  width: 100%;
+  cursor: pointer;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  background: transparent;
+}
+
+.btn:hover {
+  background-color: rgba(255, 255, 255, 0.12);
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.cards_item {
+  display: flex;
+  padding: 1rem;
+}
+
+@media (min-width: 40rem) {
+  .cards_item {
+    width: 50%;
+  }
+}
+
+@media (min-width: 56rem) {
+  .cards_item {
+    width: 33.3333%;
+  }
+}
+
+.card {
+  background-color: white;
+  border-radius: 0.25rem;
+  box-shadow: 0 20px 40px -14px rgba(0, 0, 0, 0.25);
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.card_content {
+  padding: 1rem;
+  background: linear-gradient(to bottom left, #EF8D9C 40%, #FFC39E 100%);
+}
+
+.card_title {
+  color: #ffffff;
+  font-size: 1.1rem;
+  font-weight: 700;
+  letter-spacing: 1px;
+  text-transform: capitalize;
+  margin: 0px;
+}
+
+.card_text {
+  color: #ffffff;
+  font-size: 0.875rem;
+  line-height: 1.5;
+  margin-bottom: 1.25rem;    
+  font-weight: 400;
+}
+.made_by{
+  font-weight: 400;
+  font-size: 13px;
+  margin-top: 35px;
+  text-align: center;
+}
+
+*/
