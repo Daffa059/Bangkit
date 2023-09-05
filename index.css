@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;   
+}
+
+.header-1{
+    text-align: center;
+    padding: 60px;
+    background-color: #040D12;
+    
+}
+/* Style for body */
+.container{
+    font-family: sans-serif, Arial;
+    background-color: #000;
+    margin: 20px;
+    display: flex;
+}
+
+.content-1{
+    text-align: justify;
+    text-justify: inter-word;
+    flex-direction: column;
+    margin-right: 50px;
+}
+
+.article-content{
+    margin: auto;
+}
+
+/* Style the navbar */
+nav {
+    background-color: #040D12;
+    color: #fff;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+nav li {
+    padding: 10px;
+    position: relative;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* Style the dropdown menu */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropbtn {
+    cursor: pointer;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #333;
+    min-width: 160px;
+    z-index: 1;
+}
+
+.dropdown-content a {
+    padding: 10px;
+    text-decoration: none;
+    display: block;
+    color: #fff;
+}
+
+.dropdown-content a:hover {
+    background-color: #555;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+
+/*Style for header*/
+header {
+    background-color: #183D3D;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+/* Style the main container */
+main{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    background-color: #fff;
+    border: 1px solid #5C8374;
+    padding: 20px;
+    margin-top: 20px;
+    margin: 0;
+    flex-direction: column nowrap;
+    ;
+}
+
+.content-2{
+    padding-top: 50px;
+}
+/*Style for article*/
+article{
+    flex: 1;
+    margin-right: 20px;
+    color: white;
+}
+
+/*Style for aside*/
+aside {
+    align-self: center;
+}
+
+/*Style for footer*/
+footer{
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+}
